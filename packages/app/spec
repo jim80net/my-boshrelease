@@ -1,0 +1,5 @@
+---
+name: app
+dependencies: null
+files:
+- app/app.rb

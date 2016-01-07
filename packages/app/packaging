@@ -1,0 +1,3 @@
+set -e
+cd app
+cp -r * ${BOSH_INSTALL_TARGET}/
