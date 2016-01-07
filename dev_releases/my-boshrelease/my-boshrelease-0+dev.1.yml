@@ -1,0 +1,7 @@
+---
+packages: []
+jobs: []
+commit_hash: 2cb86a3b
+uncommitted_changes: true
+name: my-boshrelease
+version: 0+dev.1
