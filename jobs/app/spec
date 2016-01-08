@@ -1,0 +1,9 @@
+---
+name: app
+templates:
+  app_ctl: bin/app_ctl
+
+packages:
+- hello
+- app
+
