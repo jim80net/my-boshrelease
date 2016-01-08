@@ -1,0 +1,21 @@
+---
+packages:
+- name: app
+  version: a9e7bd72ce469209304efe69d28a00015e54064c
+  fingerprint: a9e7bd72ce469209304efe69d28a00015e54064c
+  sha1: e2403c4d580e69bd3d3752e07ef34549cefbf2c2
+  dependencies: []
+- name: hello
+  version: 70a341a78ca3338449ed4cbd91afe16e691517e9
+  fingerprint: 70a341a78ca3338449ed4cbd91afe16e691517e9
+  sha1: dd0ddb94f637ae81e456712829760dfc57f9645a
+  dependencies: []
+jobs:
+- name: app
+  version: dfa2fde313c2b7060d79f6a800e410be5235f50e
+  fingerprint: dfa2fde313c2b7060d79f6a800e410be5235f50e
+  sha1: 980e021b4ef87dde5106539e333576abf703f439
+commit_hash: 99c65913
+uncommitted_changes: true
+name: my-boshrelease
+version: '1'
