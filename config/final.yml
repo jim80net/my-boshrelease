@@ -1,0 +1,6 @@
+---
+final_name: my-boshrelease
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/

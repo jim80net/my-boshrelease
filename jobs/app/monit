@@ -1,5 +1,4 @@
 check process app
   with pidfile /var/vcap/sys/run/app/app.pid
-  start program “/var/vcap/jobs/app/bin/app_ctl start”
-  stop program “/var/vcap/jobs/app/bin/app_ctl stop”
-  group vcap
+  start program /var/vcap/jobs/app/bin/app_ctl_start
+  stop program /var/vcap/jobs/app/bin/app_ctl_stop

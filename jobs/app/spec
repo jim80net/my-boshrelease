@@ -2,6 +2,8 @@
 name: app
 templates:
   app_ctl: bin/app_ctl
+  app_ctl_start: bin/app_ctl_start
+  app_ctl_stop: bin/app_ctl_stop
 
 packages:
 - hello
