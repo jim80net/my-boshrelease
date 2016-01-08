@@ -1,0 +1,7 @@
+set -e 
+
+cd ruby
+
+./configure --prefix=${BOSH_INSTALL_TARGET}
+make
+make install
