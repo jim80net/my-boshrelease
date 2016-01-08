@@ -1,6 +1,8 @@
 set -e 
 
-cd ruby
+ls
+tar -xzf ruby-2.3.0/ruby-2.3.0.tar.gz
+cd ruby-2.3.0
 
 ./configure --prefix=${BOSH_INSTALL_TARGET}
 make
